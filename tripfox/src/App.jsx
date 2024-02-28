@@ -30,7 +30,9 @@ Issue JSON Web Tokens (JWTs) upon successful login for secure session management
 <br />
 3. Role-Based Access Control (RBAC):
 
-Implement RBAC to restrict access based on user roles:
+Implement RBAC to restrict access based on 
+<br />
+user roles:
 User/Customer: Can search trains, book tickets, manage their bookings (if permitted), and view PNR status.
 Agent: Can perform all user actions, additionally having access to functionalities like booking tickets for others (based on specific permissions) and potentially generating reports.
 Customer Care: Full access to user and agent functionalities, including modifying reservations, issuing refunds (if applicable), and managing user accounts.
